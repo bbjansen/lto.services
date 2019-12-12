@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
-    <div class="tile is-ancestor">
+  <section class="section is-paddingless">
+    <div class="tile is-ancestor" style="padding-top: 20px;">
       <div class="tile is-vertical is-8">
         <div class="tile">
           <div class="tile is-parent is-vertical">

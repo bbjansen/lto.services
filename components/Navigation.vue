@@ -28,7 +28,7 @@
           tag="router-link"
           class="has-text-grey-dark is-size-5 has-text-weight-bold"
         >
-         Lease
+          Lease
         </b-navbar-item>
         <b-navbar-item
           :to="{ path: '/projects' }"
