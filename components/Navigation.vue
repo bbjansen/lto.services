@@ -9,12 +9,14 @@
         <b-navbar-item
           :to="{ path: '/' }"
           tag="router-link"
-          class="has-background-light"
+          class="has-background-light has-text-black-ter is-size-4"
         >
           <img
             src="~assets/logo.png"
-            alt="TurtleCoin"
+            alt="LTO Services"
+            height="28"
           >
+          LTO Services
         </b-navbar-item>
       </template>
 
