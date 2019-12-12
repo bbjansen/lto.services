@@ -5,11 +5,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'LTO Services - Offering LTO Network services in the area of consultancy, system design and app development.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Offering LTO Network services in the area of consultancy, system design and app development.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -46,7 +46,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'nuxt-i18n'
   ],
   /*
   ** Axios module configuration
@@ -63,5 +64,25 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      {
+        name: 'English',
+        code: 'en',
+        iso: 'en-US',
+        file: 'en.js'
+      },
+      {
+        name: 'Nederlands',
+        code: 'nl',
+        iso: 'NL',
+        file: 'nl.js'
+      }
+    ],
+    langDir: 'locales/',
+    seo: true,
+    lazy: true
   }
 }
