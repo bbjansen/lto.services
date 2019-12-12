@@ -1,8 +1,8 @@
 <template>
   <div>
     <Navigation />
-    <section class="main-content columns">
-      <div class="container column is-10">
+    <section class="main-content">
+      <div class="container">
         <nuxt />
       </div>
     </section>

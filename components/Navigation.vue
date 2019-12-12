@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar
-      type="is-primary"
+      type=""
       has-shadow
       wrapper-class="container"
     >
@@ -9,7 +9,7 @@
         <b-navbar-item
           :to="{ path: '/' }"
           tag="router-link"
-          class="has-background-light has-text-black-ter is-size-4"
+          class="has-background-light has-text-grey-dark is-size-3 has-text-weight-bold"
         >
           <img
             src="~assets/logo.png"
@@ -23,16 +23,37 @@
       <template slot="start" />
 
       <template slot="end">
-        <b-navbar-item tag="nuxt-link" to="/services">
-          {{ $t('menu.services') }}
+        <b-navbar-item
+          :to="{ path: '/pool' }"
+          tag="router-link"
+          class="has-text-grey-dark is-size-5 has-text-weight-bold"
+        >
+         Lease
         </b-navbar-item>
-
-        <b-navbar-item tag="nuxt-link" to="/about">
-          {{ $t('menu.about') }}
+        <b-navbar-item
+          :to="{ path: '/projects' }"
+          tag="router-link"
+          class="has-text-grey-dark is-size-5 has-text-weight-bold"
+        >
+          Projects
         </b-navbar-item>
+        <b-navbar-dropdown
+          :value="this.$i18n.locale"
+          :label="$t('language')"
+          hoverable
 
-        <b-navbar-item tag="nuxt-link" to="/contact">
-          {{ $t('menu.contact') }}
+          class="has-text-grey-dark is-size-5 has-text-weight-bold"
+        >
+          <b-navbar-item
+            v-for="locale of locales"
+            :key="locale.code"
+            :to="switchLocalePath(locale.code)"
+            :value="locale.code"
+            tag="nuxt-link"
+          >
+            {{ locale.name }}
+          </b-navbar-item>
+        </b-navbar-dropdown>
         </b-navbar-item>
       </template>
     </b-navbar>
