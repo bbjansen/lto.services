@@ -22,11 +22,11 @@ export default {
     },
     analysis: {
       title: 'Analyse',
-      services: ['netwerk', 'systeem', 'blockchain', 'code', 'kosten', 'visualization']
+      services: ['netwerk', 'systeem', 'blockchain', 'code', 'kosten', 'visualisatie']
     },
     saas: {
       title: 'Software als Service',
-      services: ['caching', 'api', 'monitoring', 'leasing']
+      services: ['caching', 'api', 'toezicht', 'leasing']
     },
     about: {
       title: 'Over Ons',
