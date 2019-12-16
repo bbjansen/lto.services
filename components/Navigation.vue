@@ -9,14 +9,16 @@
         <b-navbar-item
           :to="{ path: '/' }"
           tag="router-link"
-          class="has-background-light has-text-grey-dark is-size-3 has-text-weight-bold"
         >
-          <img
-            src="~assets/logo.png"
-            alt="LTO Services"
-            height="28"
-          >
-          LTO Services
+          <b-icon
+            icon="call-merge"
+            size="is-large"
+            type="is-primary"
+            style="padding-right: 10px"
+          />
+          <p class="has-text-grey-dark is-size-3 has-text-weight-bold">
+            LTO Services
+          </p>
         </b-navbar-item>
       </template>
 

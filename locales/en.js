@@ -26,7 +26,7 @@ export default {
     },
     saas: {
       title: 'Software as Service',
-      services: ['caching', 'api', 'monitoring', 'leasing']
+      services: ['caching', 'api', 'monitoring', 'leasing', 'node hosting']
     },
     about: {
       title: 'About',
