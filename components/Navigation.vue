@@ -24,22 +24,29 @@
 
       <template slot="end">
         <b-navbar-item
-          :to="{ path: '/pool' }"
-          tag="router-link"
-          class="has-text-grey-dark is-size-5 has-text-weight-bold"
+          :to="{ path: 'lease.lto.services' }"
+          tag="a"
+          class="has-text-primary is-size-5 has-text-weight-bold"
         >
-          Lease
+          {{ $t('menu.lease') }}
         </b-navbar-item>
         <b-navbar-item
           :to="{ path: '/projects' }"
           tag="router-link"
           class="has-text-grey-dark is-size-5 has-text-weight-bold"
         >
-          Projects
+          {{ $t('menu.projects') }}
+        </b-navbar-item>
+        <b-navbar-item
+          :to="{ path: 'blog.lto.services' }"
+          tag="a"
+          class="has-text-grey-dark is-size-5 has-text-weight-bold"
+        >
+          {{ $t('menu.blog') }}
         </b-navbar-item>
         <b-navbar-dropdown
           :value="this.$i18n.locale"
-          :label="$t('language')"
+          :label="$t('menu.language')"
           hoverable
 
           class="has-text-grey-dark is-size-5 has-text-weight-bold"

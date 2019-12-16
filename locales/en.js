@@ -2,25 +2,40 @@
 
 export default {
   menu: {
-    services: 'Services',
-    about: 'About',
-    contact: 'Contact'
+    lease: 'Lease',
+    projects: 'Projects',
+    blog: 'Blog',
+    language: 'Language'
   },
-
   tile: {
-    consult: 'Consult',
-    consult_text: '',
-    system: 'System Design',
-    system_text: '',
-    dev: 'Software',
-    dev_text: '',
-    analysis: 'Analysis',
-    analysis_text: '',
-    about: 'About',
-    about_text: '',
-    contact: 'Contact',
-    contact_text: ''
-  },
-
-  language: 'Language'
+    consult: {
+      title: 'Consult',
+      services: ['research', 'decentralization', 'fintech', 'regtech', 'legislation']
+    },
+    system: {
+      title: 'System Design',
+      services: ['decentralized', 'apps', 'database', 'node', 'wallet', 'pool', 'exchange']
+    },
+    software: {
+      title: 'Software',
+      services: ['web', 'mobile', 'desktop', '2d games', 'bots', 'cross platform']
+    },
+    analysis: {
+      title: 'Analysis',
+      services: ['network', 'system', 'blockchain', 'code', 'cost', 'visualization']
+    },
+    saas: {
+      title: 'Software as Service',
+      services: ['caching', 'api', 'monitoring', 'leasing']
+    },
+    about: {
+      title: 'About',
+      message: 'A small start-up company located in the Netherlands. We have direct experience in building apps, tools, games, bots and services that interact with the LTO Network.',
+      more: 'Read More'
+    },
+    contact: {
+      title: 'Contact',
+      message: 'Did we spark your interest?'
+    }
+  }
 }
