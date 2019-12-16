@@ -13,7 +13,7 @@ export default {
       services: ['onderzoek', 'decentralisatie', 'fintech', 'regtech', 'wetgeving']
     },
     system: {
-      title: 'System Design',
+      title: 'Systeem Ontwerp',
       services: ['gedecentraliseerd', 'apps', 'database', 'node', 'wallet', 'pool', 'beurs']
     },
     software: {
@@ -21,7 +21,7 @@ export default {
       services: ['web', 'mobiel', 'desktop', '2d spellen', 'bots', 'cross platform']
     },
     analysis: {
-      title: 'Analysis',
+      title: 'Analyse',
       services: ['netwerk', 'systeem', 'blockchain', 'code', 'kosten', 'visualization']
     },
     saas: {
@@ -35,7 +35,7 @@ export default {
     },
     contact: {
       title: 'Contact',
-      message: 'Did we spark your interest?'
+      message: 'Hebben we je interesse gewekt ?'
     }
   }
 }

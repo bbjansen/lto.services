@@ -140,13 +140,6 @@
                 href="#"
                 type="is-dark"
               >
-                discord
-              </b-button>
-              <b-button
-                tag="a"
-                href="#"
-                type="is-dark"
-              >
                 telegram
               </b-button>
             </div>
