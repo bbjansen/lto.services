@@ -25,7 +25,7 @@ export default {
       services: ['netwerk', 'systeem', 'blockchain', 'code', 'kosten', 'visualization']
     },
     saas: {
-      title: 'Software as Service',
+      title: 'Software als Service',
       services: ['caching', 'api', 'monitoring', 'leasing']
     },
     about: {
@@ -35,7 +35,7 @@ export default {
     },
     contact: {
       title: 'Contact',
-      message: 'Hebben we je interesse gewekt ?'
+      message: 'Hebben we je interesse gewekt?'
     }
   }
 }

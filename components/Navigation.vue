@@ -24,8 +24,8 @@
 
       <template slot="end">
         <b-navbar-item
-          :to="{ path: 'lease.lto.services' }"
           tag="a"
+          href="https://lease.lto.services"
           class="has-text-primary is-size-5 has-text-weight-bold"
         >
           {{ $t('menu.lease') }}
@@ -38,8 +38,8 @@
           {{ $t('menu.projects') }}
         </b-navbar-item>
         <b-navbar-item
-          :to="{ path: 'blog.lto.services' }"
           tag="a"
+          href="https://blog.lto.services"
           class="has-text-grey-dark is-size-5 has-text-weight-bold"
         >
           {{ $t('menu.blog') }}
