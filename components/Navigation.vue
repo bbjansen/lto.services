@@ -38,8 +38,8 @@
           {{ $t('menu.projects') }}
         </b-navbar-item>
         <b-navbar-item
-          tag="a"
-          href="https://blog.lto.services"
+          :to="{ path: '/blog' }"
+          tag="router-link"
           class="has-text-grey-dark is-size-5 has-text-weight-bold"
         >
           {{ $t('menu.blog') }}
