@@ -10,13 +10,18 @@
       </div>
     </div>
     <div v-else>
-      <div class="tile is-ancestor" style="padding-top: 40px;">
-        <div class="tile">
-          <div
-            v-for="post in posts"
-            v-bind:key="post.id"
-            class="tile"
-          >
+      <div
+        v-for="(group, i) in groupPosts"
+        v-bind:key="i"
+        class="tile is-ancestor"
+        style="padding-top: 40px;"
+      >
+        <div
+          v-for="post in posts.slice(i * 3, (i + 1) * 3)"
+          v-bind:key="post.id"
+          class="tile"
+        >
+          <div class="tile">
             <div class="tile is-parent">
               <article
                 :class="randomColor()"
@@ -32,7 +37,7 @@
                 <b-button
                   :href="post.url"
                   tag="a"
-                  type="is-white"
+                  type="is-black"
                   expanded
                   outlined
                 >
@@ -58,6 +63,11 @@ const api = new GhostContentAPI({
 
 export default {
   name: 'Blogs',
+  computed: {
+    groupPosts () {
+      return Array.from(Array(Math.ceil(this.posts.length / 3)).keys())
+    }
+  },
   async asyncData () {
     const posts = await api.posts.browse({ filter: 'tag:blog' })
     return { posts }
