@@ -10,11 +10,11 @@ export default {
   tile: {
     consult: {
       title: 'Consult',
-      services: ['research', 'decentralization', 'fintech', 'regtech', 'legislation']
+      services: ['research', 'decentralization', 'live contracts', 'migration', 'legislation']
     },
     system: {
       title: 'System Design',
-      services: ['decentralized', 'apps', 'database', 'node', 'wallet', 'pool', 'exchange']
+      services: ['decentralized', 'apps', 'database', 'live contracts', 'pools', 'exchange']
     },
     software: {
       title: 'Software',
