@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar
-      type=""
+      type="is-light"
       has-shadow
       wrapper-class="container"
     >
@@ -22,7 +22,8 @@
         </b-navbar-item>
       </template>
 
-      <template slot="start" />
+      <template slot="start">
+      </template>
 
       <template slot="end">
         <b-navbar-item
