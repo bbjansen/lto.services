@@ -3,13 +3,14 @@
     <div class="tile is-ancestor" style="padding-top: 40px;">
       <div class="tile">
         <div
-          class="tile"
           v-for="post in posts"
-          v-bind:key="post"
+          v-bind:key="post.id"
+          class="tile"
         >
           <div class="tile is-parent">
             <article
-              class="tile is-child notification is-dark is-radiusless"
+              :class="randomColor()"
+              class="tile is-child notification is-radiusless"
             >
               <p class="title">
                 {{ post.title }}
@@ -51,6 +52,12 @@ export default {
   async asyncData () {
     const posts = await api.posts.browse({ slug: 'projects' })
     return { posts }
+  },
+  methods: {
+    randomColor () {
+      const colors = ['dark', 'info', 'success', 'warning', 'danger', 'clean', 'fresh']
+      return 'is-' + colors[Math.floor(Math.random() * colors.length)]
+    }
   }
 }
 </script>
