@@ -7,7 +7,7 @@ export default {
     blog: 'Blog',
     language: 'Language'
   },
-  tile: {
+  services: {
     consult: {
       title: 'Consult',
       services: ['research', 'decentralization', 'live contracts', 'migration', 'legislation', 'privacy']
@@ -37,5 +37,13 @@ export default {
       title: 'Contact',
       message: 'Did we spark your interest?'
     }
+  },
+  projects: {
+    empty: 'There are no projects to display right now.',
+    more: 'Read More'
+  },
+  blog: {
+    empty: 'There are no posts to display right now.',
+    more: 'Read More'
   }
 }

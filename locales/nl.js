@@ -7,7 +7,7 @@ export default {
     blog: 'Blog',
     language: 'Taal'
   },
-  tile: {
+  services: {
     consult: {
       title: 'Consulteren',
       services: ['onderzoek', 'decentralisatie', 'live contracts', 'migratie', 'wetgeving', 'privacy']
@@ -37,5 +37,13 @@ export default {
       title: 'Contact',
       message: 'Hebben we je interesse gewekt?'
     }
+  },
+  projects: {
+    empty: 'Er zijn momenteel geen projecten om weer te geven.',
+    more: 'Lees Meer'
+  },
+  blog: {
+    empty: 'Er zijn momenteel geen posts weer te geven.',
+    more: 'Lees Meer'
   }
 }

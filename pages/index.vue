@@ -6,11 +6,11 @@
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-danger is-radiusless">
               <p class="title">
-                {{ $t('tile.consult.title') }}
+                {{ $t('services.consult.title') }}
               </p>
               <b-taglist>
                 <b-tag
-                  v-for="item in $t('tile.consult.services')"
+                  v-for="item in $t('services.consult.services')"
                   v-bind:key="item"
                   size="is-medium"
                   type="is-dark"
@@ -23,11 +23,11 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-info is-radiusless">
               <p class="title">
-                {{ $t('tile.system.title') }}
+                {{ $t('services.system.title') }}
               </p>
               <b-taglist>
                 <b-tag
-                  v-for="item in $t('tile.system.services')"
+                  v-for="item in $t('services.system.services')"
                   v-bind:key="item"
                   size="is-medium"
                   type="is-dark"
@@ -42,11 +42,11 @@
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-warning is-radiusless">
               <p class="title">
-                {{ $t('tile.software.title') }}
+                {{ $t('services.software.title') }}
               </p>
               <b-taglist>
                 <b-tag
-                  v-for="item in $t('tile.software.services')"
+                  v-for="item in $t('services.software.services')"
                   v-bind:key="item"
                   size="is-medium"
                   type="is-dark"
@@ -59,11 +59,11 @@
           <div class="tile is-parent">
             <article class="tile is-child notification is-success is-radiusless">
               <p class="title">
-                {{ $t('tile.analysis.title') }}
+                {{ $t('services.analysis.title') }}
               </p>
               <b-taglist>
                 <b-tag
-                  v-for="item in $t('tile.analysis.services')"
+                  v-for="item in $t('services.analysis.services')"
                   v-bind:key="item"
                   size="is-medium"
                   type="is-dark"
@@ -78,11 +78,11 @@
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-fresh is-radiusless">
               <p class="title">
-                {{ $t('tile.saas.title') }}
+                {{ $t('services.saas.title') }}
               </p>
               <b-taglist>
                 <b-tag
-                  v-for="item in $t('tile.saas.services')"
+                  v-for="item in $t('services.saas.services')"
                   v-bind:key="item"
                   size="is-medium"
                   type="is-dark"
@@ -99,11 +99,11 @@
           <article class="tile is-child notification is-dark is-radiusless">
             <div class="content">
               <p class="title">
-                {{ $t('tile.about.title') }}
+                {{ $t('services.about.title') }}
               </p>
 
               <p class="subtitle has-text-justified">
-                {{ $t('tile.about.message') }}
+                {{ $t('services.about.message') }}
               </p>
 
               <b-button
@@ -113,7 +113,7 @@
                 expanded
                 outlined
               >
-                {{ $t('tile.about.more') }}
+                {{ $t('services.about.more') }}
               </b-button>
             </div>
           </article>
@@ -121,11 +121,11 @@
         <div class="tile is-parent">
           <article class="tile is-child notification is-clean is-radiusless">
             <p class="title">
-              {{ $t('tile.contact.title') }}
+              {{ $t('services.contact.title') }}
             </p>
 
             <p class="subtitle" style="white-space: pre-line">
-              {{ $t('tile.contact.message') }}
+              {{ $t('services.contact.message') }}
             </p>
             <div class="buttons">
               <b-button
