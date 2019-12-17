@@ -3,6 +3,7 @@
 export default {
   menu: {
     lease: 'Lease',
+    services: 'Services',
     projects: 'Projects',
     blog: 'Blog',
     language: 'Language'

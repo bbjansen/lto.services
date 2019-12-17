@@ -33,6 +33,13 @@
           {{ $t('menu.lease') }}
         </b-navbar-item>
         <b-navbar-item
+          :to="{ path: '/' }"
+          tag="router-link"
+          class="has-text-grey-dark is-size-5 has-text-weight-bold"
+        >
+          {{ $t('menu.services') }}
+        </b-navbar-item>
+        <b-navbar-item
           :to="{ path: '/projects' }"
           tag="router-link"
           class="has-text-grey-dark is-size-5 has-text-weight-bold"
