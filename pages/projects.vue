@@ -50,7 +50,7 @@ export default {
   components: {
   },
   async asyncData () {
-    const posts = await api.posts.browse({ slug: 'projects' })
+    const posts = await api.posts.browse({ filter: 'tag:projects' })
     return { posts }
   },
   methods: {
