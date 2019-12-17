@@ -69,7 +69,7 @@ export default {
     }
   },
   async asyncData () {
-    const posts = await api.posts.browse({ filter: 'tag:blog' })
+    const posts = await api.posts.browse({ filter: 'tag:blog' }, { formats: ['plaintext'] })
     return { posts }
   },
   methods: {
