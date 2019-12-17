@@ -10,7 +10,7 @@ export default {
   tile: {
     consult: {
       title: 'Consult',
-      services: ['research', 'decentralization', 'live contracts', 'migration', 'legislation']
+      services: ['research', 'decentralization', 'live contracts', 'migration', 'legislation', 'privacy']
     },
     system: {
       title: 'System Design',
@@ -26,7 +26,7 @@ export default {
     },
     saas: {
       title: 'Software as Service',
-      services: ['caching', 'api', 'monitoring', 'leasing', 'node hosting']
+      services: ['caching', 'api', 'monitoring', 'leasing', 'node & pool hosting']
     },
     about: {
       title: 'About',

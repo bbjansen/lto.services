@@ -10,7 +10,7 @@ export default {
   tile: {
     consult: {
       title: 'Consulteren',
-      services: ['onderzoek', 'decentralisatie', 'live contracts', 'migratie', 'wetgeving']
+      services: ['onderzoek', 'decentralisatie', 'live contracts', 'migratie', 'wetgeving', 'privacy']
     },
     system: {
       title: 'Systeem Ontwerp',
@@ -26,7 +26,7 @@ export default {
     },
     saas: {
       title: 'Software als Service',
-      services: ['caching', 'api', 'toezicht', 'leasing', 'node hosting']
+      services: ['caching', 'api', 'toezicht', 'leasing', 'node & pool hosting']
     },
     about: {
       title: 'Over Ons',
