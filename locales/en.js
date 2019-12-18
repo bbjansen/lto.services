@@ -32,7 +32,7 @@ export default {
   },
   about: {
     title: 'About',
-    message: 'A small start-up company located in the Netherlands. We have direct experience in building apps, tools, games, bots and services that interact with the LTO Network.',
+    message: 'A small start-up company located in the Netherlands. We have direct experience in developing apps, tools, games, bots and services that interact with the LTO Network.',
     more: 'Read More'
   },
   contact: {

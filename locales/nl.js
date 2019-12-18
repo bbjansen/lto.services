@@ -32,7 +32,7 @@ export default {
   },
   about: {
     title: 'Over Ons',
-    message: 'Een klein start-up bedrijf gevestigd in Nederland. We hebben directe ervaring in het bouwen van apps, tools, games, bots en services die communiceren met het LTO Netwerk.',
+    message: 'Een klein start-up bedrijf gevestigd in Nederland. We hebben directe ervaring in het ontwikkelen van apps, tools, games, bots en services die communiceren met het LTO Netwerk.',
     more: 'Lees Meer'
   },
   contact: {
