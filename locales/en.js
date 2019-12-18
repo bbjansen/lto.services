@@ -28,16 +28,16 @@ export default {
     saas: {
       title: 'Software as Service',
       services: ['caching', 'api', 'monitoring', 'leasing', 'node & pool hosting']
-    },
-    about: {
-      title: 'About',
-      message: 'A small start-up company located in the Netherlands. We have direct experience in building apps, tools, games, bots and services that interact with the LTO Network.',
-      more: 'Read More'
-    },
-    contact: {
-      title: 'Contact',
-      message: 'Did we spark your interest?'
     }
+  },
+  about: {
+    title: 'About',
+    message: 'A small start-up company located in the Netherlands. We have direct experience in building apps, tools, games, bots and services that interact with the LTO Network.',
+    more: 'Read More'
+  },
+  contact: {
+    title: 'Contact',
+    message: 'Did we spark your interest?'
   },
   projects: {
     empty: 'There are no projects to display right now.',

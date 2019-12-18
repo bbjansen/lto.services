@@ -22,8 +22,7 @@
         </b-navbar-item>
       </template>
 
-      <template slot="start">
-      </template>
+      <template slot="start" />
 
       <template slot="end">
         <b-navbar-item

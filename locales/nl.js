@@ -28,16 +28,16 @@ export default {
     saas: {
       title: 'Software als Service',
       services: ['caching', 'api', 'toezicht', 'leasing', 'node & pool hosting']
-    },
-    about: {
-      title: 'Over Ons',
-      message: 'Een klein start-up bedrijf gevestigd in Nederland. We hebben directe ervaring in het bouwen van apps, tools, games, bots en services die communiceren met het LTO Netwerk.',
-      more: 'Lees Meer'
-    },
-    contact: {
-      title: 'Contact',
-      message: 'Hebben we je interesse gewekt?'
     }
+  },
+  about: {
+    title: 'Over Ons',
+    message: 'Een klein start-up bedrijf gevestigd in Nederland. We hebben directe ervaring in het bouwen van apps, tools, games, bots en services die communiceren met het LTO Netwerk.',
+    more: 'Lees Meer'
+  },
+  contact: {
+    title: 'Contact',
+    message: 'Hebben we je interesse gewekt?'
   },
   projects: {
     empty: 'Er zijn momenteel geen projecten om weer te geven.',

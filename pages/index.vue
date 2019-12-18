@@ -99,11 +99,11 @@
           <article class="tile is-child notification is-dark is-radiusless">
             <div class="content">
               <p class="title">
-                {{ $t('services.about.title') }}
+                {{ $t('about.title') }}
               </p>
 
               <p class="subtitle has-text-justified">
-                {{ $t('services.about.message') }}
+                {{ $t('about.message') }}
               </p>
 
               <b-button
@@ -113,7 +113,7 @@
                 expanded
                 outlined
               >
-                {{ $t('services.about.more') }}
+                {{ $t('about.more') }}
               </b-button>
             </div>
           </article>
@@ -121,11 +121,11 @@
         <div class="tile is-parent">
           <article class="tile is-child notification is-clean is-radiusless">
             <p class="title">
-              {{ $t('services.contact.title') }}
+              {{ $t('contact.title') }}
             </p>
 
             <p class="subtitle" style="white-space: pre-line">
-              {{ $t('services.contact.message') }}
+              {{ $t('contact.message') }}
             </p>
             <div class="buttons">
               <b-button
