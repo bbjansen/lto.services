@@ -106,7 +106,7 @@
                 {{ $t('about.message') }}
               </p>
 
-              <b-button
+              <!--<b-button
                 tag="nuxt-link"
                 to="/about"
                 type="is-white"
@@ -115,6 +115,7 @@
               >
                 {{ $t('about.more') }}
               </b-button>
+              -->
             </div>
           </article>
         </div>
