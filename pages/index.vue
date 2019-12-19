@@ -138,6 +138,13 @@
               </b-button>
               <b-button
                 tag="a"
+                href="https://www.linkedin.com/company/ltoservices"
+                type="is-dark"
+              >
+                linkedin
+              </b-button>
+              <b-button
+                tag="a"
                 href="https://t.me/ltoservices"
                 type="is-dark"
               >
