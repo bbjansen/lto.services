@@ -131,7 +131,7 @@
             <div class="buttons">
               <b-button
                 tag="a"
-                href="mailto:bobjansen@pm.me"
+                href="mailto:bob@lto.services"
                 type="is-dark"
               >
                 e-mail
