@@ -56,7 +56,7 @@
 import GhostContentAPI from '@tryghost/content-api'
 
 const api = new GhostContentAPI({
-  url: 'https://cms.lto.services',
+  url: process.env.BLOG_URL,
   key: process.env.GHOST_API,
   version: 'v3'
 })
