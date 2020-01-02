@@ -55,4 +55,13 @@ $link-focus-border: $primary;
 
 // Import Bulma and Buefy styles
 @import "~bulma";
-@import "~buefy/src/scss/buefy"; 
+@import "~buefy/src/scss/buefy";
+
+// 'is-vertical' tiles fix voor IE 11,
+//  Edge and older versions of Firefox.
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .tile {
+      flex-basis: auto;
+      width: 100%;
+    }
+  }
